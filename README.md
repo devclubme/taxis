@@ -22,9 +22,9 @@ const DEFAULT_QUERY = `{
  }`;
 ```
 3. yarn start
-4. on localhost:3000 play with dsdemo data
+4. on localhost:3000 play with atim-taxis-proxy data
 
-## Deploy your own dsdemo project on AWS (first configure your serverless environment)
+## Deploy your own atim-taxis-proxy project on AWS (first configure your serverless environment)
 
 1. clone this repo
 2. cd to repo
