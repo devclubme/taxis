@@ -34,7 +34,7 @@ module.exports = async (data, context) => {
   await axios.post(url, formUrlEncoded(requestBody), { headers: headers, httpsAgent: agent })
     .then(response => {
       //handle success
-      statements = response.data.data.map(function(el) {
+      statements = response.data.data.map(function (el) {
         return {
           year: el.Year,
           statementId: el.FinStatementNumber
@@ -42,9 +42,9 @@ module.exports = async (data, context) => {
       });
     })
     .catch(response => {
-        //handle error
-        console.log("ERROR");
-        console.log(response);
+      //handle error
+      console.log("ERROR");
+      console.log(response);
     });
 
   return statements;

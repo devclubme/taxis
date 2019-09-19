@@ -4,7 +4,6 @@ import serverless from 'serverless-http';
 import playground from 'graphql-playground-middleware-express';
 import { ApolloServer, gql } from 'apollo-server-express';
 
-import getCrpsCompany from './resolvers/crps/company_mock';
 import getTaxisCompany from './resolvers/taxis/company';
 import getTaxisCompanyStatements from './resolvers/taxis/statements';
 import getTaxisCompanyStatement from './resolvers/taxis/statement';
